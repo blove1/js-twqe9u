@@ -17,9 +17,10 @@ const viewer = new wijmo.viewer.ReportViewer('#viewer', {
      //exportBtn.style.display = 'none';
 
     var exportBtn = sender.hostElement.querySelector('a[class~="wj-btn"][title="Export"][command-tag="28"]');
+    //exportBtn.style.display = 'none';
     var newExportBtn = exportBtn.cloneNode(true);
     exportBtn.parentNode.replaceChild(newExportBtn, exportBtn);
-
+    
     newExportBtn.addEventListener("click", function(e) {
       alert("Do your own export here");
     });
