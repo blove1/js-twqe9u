@@ -1,0 +1,12 @@
+{
+  "name": "js-ns9gba",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@grapecity/wijmo.styles": "5.20191.605",
+    "@grapecity/wijmo": "5.20191.605",
+    "@grapecity/wijmo.input": "5.20191.605",    
+    "@grapecity/wijmo.grid": "5.20191.605",
+    "@grapecity/wijmo.viewer": "5.20191.605"
+  }
+}
